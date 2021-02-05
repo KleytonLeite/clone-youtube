@@ -1,12 +1,13 @@
 import React from 'react';
 import { Button } from '@material-ui/core';
+import Layout from '../components/Layout'
 
 
 export default function Home() {
   return (
-        <div>
-          Clone youtube com next.js + Material-UI
-          <Button variant="contained" color="secondary">Primary</Button>
-        </div>
+        <Layout title="YouTube">
+          Clone youtube com next.js + Material-UI   
+          <Button variant="outlined" color="secondary">Primary</Button>
+          </Layout>   
   )
 }

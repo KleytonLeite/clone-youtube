@@ -7,9 +7,14 @@ export default class MyDocument extends Document {
   render() {
     return (
       <Html lang="en">
-        <Head>
+         <Head>
           {/* PWA primary color */}
-          <meta name="theme-color" content={theme.palette.primary.main} />
+          <meta name="theme-color" />
+          <link
+            rel="shortcut icon"
+            href="https://www.youtube.com/s/desktop/a386e432/img/favicon.ico"
+            type="image/x-icon"
+          />
           <link
             rel="stylesheet"
             href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
