@@ -20,7 +20,7 @@ import { AccountCircle } from '@material-ui/icons';
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    //boxShadow: 'none',
+    boxShadow: 'none',
     zIndex: theme.zIndex.drawer + 1,
     backgroundColor: theme.palette.background.default,
   },
